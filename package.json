@@ -1,15 +1,18 @@
 {
+    "engineStrict": true,
     "name": "my-awesome-package",
     "version": "1.0.0",
     "eslintConfig": {
         "env": {
             "browser": true,
             "node": true,
-            "es6": true,
-            "jest/globals": true
+            "es6": true
         }
     },
     "dependencies":{
-        "eslint-plugin-unicorn": "0"
+        "eslint-plugin-unicorn": 0,
+    },
+    "devDependencies": {
+        "eslint-plugin-unicorn": ""
     }
 }
